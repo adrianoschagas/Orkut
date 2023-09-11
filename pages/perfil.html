@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orkut | Home</title>
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="../assets/img/orkut_icon.png">
+</head>
+
+<body>
+  <header>
+    <div class="container-header">
+      <div class="logo-login">
+        <figure>
+          <a href="./home.html">
+            <img src="../assets/img/orkut_logo_navbar.png" alt="Logo Orkut">
+          </a>
+        </figure>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./home.html">Início</a>
+          </li>
+          <li>
+            <a href="./perfil.html" >Perfil</a>
+          </li>
+          <li>
+            <a href="#" onclick="alert('Esta aba está em desenvolvimento!')">Recados</a>
+          </li>
+          <li>
+            <a href="#" onclick="alert('Esta aba está em desenvolvimento!')">Amigos</a>
+          </li>
+          <li>
+            <a href="./comunidades.html">Comunidade</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="logout">
+        <a href="../index.html">Sair</a>
+      </div>
+
+
+      <form action="">
+        <label for="search" class="search">Pesquisar no Orkut</label>
+        <input type="search" autocomplete="none" id="search" type="text" placeholder="Pesquisar no Orkut">
+      </form>
+    </div>
+  </header>
+  <div class="container-main">
+    <main>
+      <aside class="profile">
+        <div class="img-profile">
+          <figure>
+            <img src="../assets/img/perfil.jpg" alt="Foto Perfil">
+          </figure>
+        </div>
+
+        <div class="info-bio">
+          <h3>ZéZedeCamargo96</h3>
+
+          <p>Front-end Developer</p>
+        </div>
+
+        <div class="social-media">
+          <div class="building">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M21 19h2v2H1v-2h2V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v15h4v-8h-2V9h3a1 1 0 0 1 1 1v9zM5 5v14h8V5H5zm2 6h4v2H7v-2zm0-4h4v2H7V7z" />
+            </svg>
+
+            <a href="http://www.fatecmaua.com.br">@TropadoDesenvolvimentoWeb</a>
+          </div>
+
+          <div class="map">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M12 20.9l4.95-4.95a7 7 0 1 0-9.9 0L12 20.9zm0 2.828l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+            </svg>
+
+            <a href="https://maps.google.com">Bebedouro</a>
+          </div>
+
+          <div class="email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+            </svg>
+
+            <a href="mailto:zezedecamargo96.dev@gmail.com">ZeZedeCamargo96.dev@gmail.com</a>
+          </div>
+
+          <div class="url">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" />
+            </svg>
+
+            <a href="https://github.com">https://zezedecamargo96.dev</a>
+          </div>
+
+          <div class="twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+            </svg>
+
+            <a href="https://twitter.com/">@ZéZedeCamargo96</a>
+          </div>
+        </div>
+      </aside>
+
+      <div class="main-middle">
+        <section class="fundo">
+          <h2>ZéZedeCamargo96</h2>
+          <p><span><strong>Início > Meu Perfil</strong></span></p>
+          <br>
+          <nav>
+            <table>
+              <tr>
+              <td><h5>recados<br>46</h5></td>
+              <td><h5>fotos<br>423</h5></td>
+              <td><h5>videos<br>131</h5></td>
+              <td><h5>fãs<br>1312</h5></td>
+              <td><h5>recados<br>57</h5></td>
+              </tr>
+            </table>
+          </nav>
+        </section>
+            <br>
+        <section class="fundo" name="principal">
+            <p>&emsp;&emsp;&emsp;relacionamento: <strong>casado(a)</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;aniversário: <strong>21 março</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&emsp;&emsp;idade: <strong>23</strong></p>
+            <p>&emsp;&emsp;interesse no orkut: <strong>jogos</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;quem sou eu: <strong>estudante da fatec</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;filhos: <strong>2 gatos</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&ensp;etnia: <strong>pardo</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;humor: <strong>estressado</strong></p>
+            <p>&emsp;&emsp;orientação sexual: <strong>agenero</strong></p>
+            <p>&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;estilo: <strong>urbano</strong></p>
+            <p>&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;fumo: <strong>não, tenho raiva de quem fuma</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;bebo: <strong>não</strong></p>
+            <p>animais de estimação: <strong>gosto de todos</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;moro: <strong>sozinho</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;cidade natal: <strong>tangamandapio</strong></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;paixões: <strong>descansar</strong></p>
+        </section>
+      </div>
+
+      <div class="followers-following">
+        <section class="following">
+          <section class="amigos_seguidores">
+          <div class="info-following">
+            <h2>Amigos (216)</h2>
+          </div>
+
+          <div class="list-following">
+            <ul>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem11.jpg" alt="">
+                  <p>Robson</p>
+                  </img>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem12.webp" alt="">
+                  <p>Janderson</p>
+                  </img>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem10.jpg" alt="">
+                  <p>Zé da Manga</p>
+                  </img>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem5.jpg" alt="">
+                  <p>Xaruto</p>
+                  </img>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem6.jpg" alt="">
+                  <p>LuffaLunfa</p>
+                  </img>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                  <img src="../assets/img/imagem7.jpg" alt="">
+                  <p>Gabbs</p>
+                  </img>
+                  </a>
+                </li>
+              </ul>
+          </div>
+
+          <a href="#" onclick="alert('Esta aba está em desenvolvimento!')">
+            <h2>Ver todos</h2>
+          </a>
+          </section>
+        </section>
+        <br>
+        <section class="followers">
+          <section class="amigos_seguidores">
+          <div class="info-followers">
+            <h2>Seguidores (1312)</h2>            
+          </div>
+
+          <div class="list-followers">
+            <ul>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem1.jpg" alt="">
+                <p>Shaolin</p>
+                </img>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem2.jpg" alt="">
+                <p>Flavin</p>
+                </img>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem3.jpg" alt="">
+                <p>Zidane</p>
+                </img>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem4.jpg" alt="">
+                <p>Airton</p>
+                </img>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem8.jpg" alt="">
+                <p>Marquin</p>
+                </img>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                <img src="../assets/img/imagem9.jpg" alt="">
+                <p>Pedro</p>
+                </img>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#" onclick="alert('Esta aba está em desenvolvimento!')">
+            <h2>Ver todos</h2>
+          </a>
+        </section>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
